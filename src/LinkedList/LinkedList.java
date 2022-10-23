@@ -3,7 +3,7 @@ package LinkedList;
 import Node.INode;
 
 public class LinkedList {
-    private INode head;
+    public INode head;
     private INode tail;
 
     public LinkedList() {
