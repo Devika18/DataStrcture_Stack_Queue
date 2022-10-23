@@ -15,4 +15,19 @@ public class Queue<K> {
     public void printQueue() {
         queueLinkedList.printLinkedList();
     }
+
+    public INode dequeue() {
+        return queueLinkedList.deleteFirst();
+    }
+
+
+    public boolean isEmpty() {
+        if(queueLinkedList.head != null) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
 }
